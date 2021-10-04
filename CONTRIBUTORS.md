@@ -12,4 +12,6 @@
 
 [Masuma Jasmine](https://github.com/jasmine1601)
 
-[Bhumesh Polaswar] (https://github.com/bpolaswar)
+[Ishaan Gaba](https://github.com/IshaanGaba97)
+
+[Bhumesh Polaswar](https://github.com/bpolaswar)
