@@ -1,0 +1,328 @@
+body {
+    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.VerticalMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#indexh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0rem 1rem;
+}
+
+.cell {
+    background-color: #E5E7EB;
+    width: 140px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 1.7rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1.2rem 0rem 0rem;
+
+}
+
+.col :hover {
+    background-color: #4B5563;
+    color: #F3F4F6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer {
+    width: 100%;
+    min-height: 6vh;
+    position: fixed;
+    bottom: 0.5rem;
+   
+    
+}
+
+#footerarea {
+    width: 100%;
+    min-height: 6vh;
+    padding: 0.5rem 0.5rem ;
+    
+    
+}
+
+.list-item-area {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10rem 1rem 0rem;
+   
+    
+}
+
+.footer-list {
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    
+}
+
+.list-item-index {
+    list-style: none;
+    font-size: 1.5rem;
+    /* padding: 10rem 1rem 0rem; */
+    padding: 0.5rem 1rem;
+    
+}
+
+.section {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.inputBox {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 1rem 1rem 1.5rem;
+    height: 20px;
+    width: 50px;
+    overflow: scroll;
+    font-size: medium;
+}
+
+.inputBox::-webkit-scrollbar {
+    width: 0px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 2px solid black;
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color: #4B5563;
+    color: #F3F4F6;
+}
+
+.output {
+    padding: 2rem ;
+    margin: auto;
+    width: fit-content;
+}
+
+#isTriangle {
+    border: 2px solid black;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.back {
+    padding: 10rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#angleh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goback {
+    border: 2px solid black;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+.goback:hover {
+    background-color: #4B5563;
+    color: #F3F4F6;
+
+}
+
+.label {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.triangle div {
+    height: 2px;
+    background-color: black;
+}
+
+.triangle {
+    position: relative;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 20px;
+}
+
+.triangle label {
+    position: absolute;
+    font-size: 0.8rem;
+}
+
+.sideA {
+    left: -15px;
+    top: 45px;
+}
+
+.sideB{
+    left: 45px;
+    top: 105px;
+}
+
+.sideC{
+    left: 50px;
+    top: 35px;
+}
+
+.triangle .line1{
+    width: 100px;
+    bottom: -102px;
+    
+}
+
+.triangle .line2{
+    width: 100px;
+    transform: rotate(90deg);
+    top: 50px;
+    left: -50px;
+}
+
+.triangle .line3{
+    width: 141.42px;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -20px;
+}
+
+.triangle .line4{
+    width: 71px;
+    transform: rotate(135deg);
+    left:-12px;
+    top: 72px
+}
+
+.triangle .line5{
+    width: 8px;
+    transform: rotate(135deg);
+    left:50px;
+    top: 55px;
+}
+
+.triangle .line6{
+    width: 12px;
+    transform: rotate(45deg);
+    left:41px;
+    top: 50px;
+}
+
+.line{
+    position: relative;
+    bottom: -100px;
+}
+
+.backhyp {
+    padding: 4rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulaSelectionForm {
+    text-align: left;
+    padding: 0rem 0rem 0rem 3rem;
+}
+
+.radio {
+    padding: 0.5rem 1rem;
+}
+
+.radio label{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    display: inline-block;
+}
+
+
+
+.heightH{
+    left: 25px;
+    top:75px;
+}
+
+.angleA{
+    left: 75px;
+    top:87px;
+}
+
+.areaCalBlock{
+    display: none;
+}
+
+.error{
+    display: none;
+}
+
+.formquiz {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+
+.formquiz label.question {
+    display: block;
+}
+
+.radio input {
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+}
+
+.qz {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #D1D5DB;
+}
+
+.backquiz {
+    padding: 4rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Triangles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="verticalMiddle">
+        <section class ="section">
+            <div class="backquiz">
+                <div class="goback"> <i class="fas fa-chevron-left"></i><a id="aBack" href="/index.html">
+                    Go back </a>
+                </div>
+            </div>
+
+            <h1 id="angleh1">Enter the angles in below input boxes and we will tell you if those angles make a Triangle</h1>
+            
+            <form class="formquiz">
+                <div class = "radio qz">
+                    <label class="label question">1. A triangle has angles 135<sup>o</sup>, 15<sup>o</sup>, 30<sup>o</sup>. What type of triangle is it?</label>
+
+                    <label for ="radio1" class="label"><input required type="radio" id = "radio1" name="q1" value="option1"> acute triangle</label>
+                    <label for ="radio2" class="label"><input required type="radio" id = "radio2" name="q1" value="option2"> obtuse triangle</label>
+                    <label for ="radio3" class="label"><input required type="radio" id = "radio3" name="q1" value="option3"> right triangle</label>
+                </div>
+
+                <div class = "radio qz">
+                    <label class="label question">2. A perpendicular drawn from a vertex to the opposite side of a triangle is known as</label>
+
+                    <label for ="radio4" class="label"><input required type="radio" id = "radio4" name="q2" value="option1"> an altitude </label>
+                    <label for ="radio5" class="label"><input required type="radio" id = "radio5" name="q2" value="option2"> a median </label>
+                    <label for ="radio6" class="label"><input required type="radio" id = "radio6" name="q2" value="option3"> an angle bisector </label>
+                </div>
+
+                <div class = "radio qz">
+                    <label class="label question">3. If ΔABC, is right angled at B, then :</label>
+
+                    <label for ="radio7" class="label"><input required type="radio" id = "radio7" name="q3" value="option1"> AB = BC</label>
+                    <label for ="radio8" class="label"><input required type="radio" id = "radio8" name="q3" value="option2"> AB = AC</label>
+                    <label for ="radio9" class="label"><input required type="radio" id = "radio9" name="q3" value="option3"> AC > AB</label>
+                    <label for ="radio10" class="label"><input required type="radio" id = "radio10" name="q3" value="option4"> AC < AB</label>
+                </div>
+
+                <div class = "radio qz">
+                    <label class="label question">4. Line segments joining the vertices to the mid-points of the opposite sides of a triangle are known as</label>
+
+                    <label for ="radio11" class="label"><input required type="radio" id = "radio11" name="q4" value="option1"> altitudes</label>
+                    <label for ="radio12" class="label"><input required type="radio" id = "radio12" name="q4" value="option2"> medians</label>
+                    <label for ="radio13" class="label"><input required type="radio" id = "radio13" name="q4" value="option3"> angle bisectors</label>
+                </div>
+
+                <div class = "radio qz">
+                    <label class="label question">5. If one angle of a triangle is equal to the sum of other two angles, then the triangle is</label>
+
+                    <label for ="radio14" class="label"><input required type="radio" id = "radio14" name="q5" value="option1"> an isosceles triangle</label>
+                    <label for ="radio15" class="label"><input required type="radio" id = "radio15" name="q5" value="option2"> a right triangle</label>
+                    <label for ="radio16" class="label"><input required type="radio" id = "radio16" name="q5" value="option3"> an equilateral triangle</label>
+                </div>
+
+                <div class = "radio qz">
+                    <label class="label question">6. In a right angled triangle, if one acute angle is half the other, then the smallest angle is:</label>
+
+                    <label for ="radio17" class="label"><input required type="radio" id = "radio17" name="q6" value="option1"> 35<sup>o</sup></label>
+                    <label for ="radio18" class="label"><input required type="radio" id = "radio18" name="q6" value="option2"> 15<sup>o</sup></label>
+                    <label for ="radio19" class="label"><input required type="radio" id = "radio19" name="q6" value="option3"> 30<sup>o</sup></label>
+                </div>
+
+                <div class = "radio qz">
+                    <label class="label question">7. In ΔABC if AB = BC, then :</label>
+
+                    <label class="label"><input required type="radio" name="q7" value="option1"> ∠A = ∠C</label>
+                    <label class="label"><input required type="radio" name="q7" value="option2"> ∠A < ∠B</label>
+                    <label class="label"><input required type="radio" name="q7" value="option3"> ∠A = ∠B</label>
+                </div>
+                <div style="padding: 1.5rem 0rem 0rem;">
+                    <button class="button" id="submitQuiz">Submit</button>
+                </div>
+                
+            </form>
+            
+            <div class="output"> <h2>Score will be shown here-</h2>
+                <div id="isTriangle">
+                    <label class="label">Score:</label>
+                    <div style="display:inline;" class="scoreHere">For each correct answer you will get 1 point</div>
+                </div>
+            </div>
+        </section>    
+    </div>
+
+    <footer id="footerarea">
+        <ul class="footer-list">
+            <li class="list-item-index"><a target="_blank" href="mailto:suryanshchopra987@gmail.com" class="footer-links">
+                <i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-item-index"><a target="_blank" href="https://github.com/SuryanshChopra">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item-index"><a target="_blank" href="https://www.linkedin.com/in/suryanshchopra">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="list-item-index"><a target="_blank" href="https://instagram.com/choprasuryansh">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script src="quiz.js"></script>
+    
+</body>
+</html>
