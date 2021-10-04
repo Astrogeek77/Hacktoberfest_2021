@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fun with Triangles</title>
+</head>
+<body>
+    <div class="verticalMiddle">
+        <section class ="section">
+            <div class="backhyp">
+                <div class="goback"> <i class="fas fa-chevron-left"></i><a id="aBack" href="/index.html">
+                    Go back </a>
+                </div>
+            </div>
+
+            <h1 id="angleh1">Enter the lengths of sides of right angle triangle</h1>
+
+            <div class="triangle">
+                <label class="label sideA">a</label>
+                <label class="label sideB">b</label>
+                <label class="label sideC">c</label>
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+
+            <form class="form" id="formHyp">
+                <label class="label">a=
+                    <input class="inputBox inputSide" type="number" min="0.0001" step="0.0001" required>
+                </label>
+                <label class="label">b=
+                    <input class="inputBox inputSide" type="number" min="0.0001" step="0.0001" required>
+                </label>
+                
+                <button class="button">submit</button>
+            </form>
+            <h2>Hypotenuse will be calculated here-</h2>
+            <div class="output">
+                <div id="isTriangle">
+                <label class="label">C=</label>
+                <div style="display:inline;" class="hypShowHere"><span style="font-size: 1.8rem;">√</span><span style="border-top:2px solid black; padding-top:0.1rem;">a<sup>2</sup>+b<sup>2</sup></span></div>
+                </div>
+            </div>   
+        </section>    
+    </div>
+    <footer id="footer">
+        <ul class="footer-list">
+            <li class="list-item-index"><a target="_blank" href="mailto:suryanshchopra987@gmail.com" class="footer-links">
+                <i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-item-index"><a target="_blank" href="https://github.com/SuryanshChopra">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item-index"><a target="_blank" href="https://www.linkedin.com/in/suryanshchopra">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="list-item-index"><a target="_blank" href="https://instagram.com/choprasuryansh">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script>
+        const inputSides = document.querySelectorAll(".inputSide")
+        const formHyp = document.querySelector("#formHyp")
+        const hypotenuse = document.querySelector(".hypShowHere")
+
+        let lengthA, lengthB;
+
+        formHyp.addEventListener("submit", (e)=>{
+            e.preventDefault();
+
+            lengthA = Number(inputSides[0].value)
+            lengthB = Number(inputSides[1].value)
+
+            hypotenuse.innerText = Math.sqrt((lengthA*lengthA) + (lengthB*lengthB))
+        })
+    </script>
+    
+</body>
+</html>
