@@ -1,3 +1,11 @@
 [Gautam Jain](https://github.com/Astrogeek77)
 
 [Suryansh Chopra](https://github.com/SuryanshChopra)
+
+[Avninder Preet Singh](https://github.com/Avninder99)
+
+[Ujjwal Tyagi](https://github.com/tyagi-zan-pacto)
+
+[Vidit Jain](https://github.com/Viditjain04)
+
+[subho004](https://github.com/subho004)
