@@ -25,3 +25,5 @@
 [Shreeraj Bhamatr](https://github.com/shreerajbhamare)
 
 [Abhinab Pratap Singh Chauhan](https://github.com/GeneralChauhan)
+
+[Jatin Upreti]((https://github.com/jatin-upreti)
