@@ -1,14 +1,12 @@
+// declaring varibale once increases speed of calculator
+const a = document.getElementById("ok");
+
 function eva() {
-    var  a=""
-    var  b=""
-      a=document.getElementById("ok").value;
-       b=eval(a);
-        document.getElementById("ok").value = b;
-    
-    
-    
-    }
-    function c(){
-      var c=document.getElementById("ok").value = ""
-    }
+  const b = eval(a.value);
+  a.value = b;
+}
+
+function c(){
+  a.value = ""
+}
     
