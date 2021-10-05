@@ -18,6 +18,8 @@
 
 [Vishakha V ](https://github.com/Vishakhavenugopal)
 
+[Shyam Sundar Vashishtha](https://github.com/shyam640)
+
 [Harshit suthar ](https://github.com/harshitsuthar77731)
 
 [Tanmay Gupta](https://github.com/TG2408)
