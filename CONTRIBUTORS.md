@@ -22,6 +22,6 @@
 
 [Tanmay Gupta](https://github.com/TG2408)
 
-[Shreeraj Bhamatr](https://github.com/shreerajbhamare)
+[Shreeraj Bhamare](https://github.com/shreerajbhamare)
 
 [Abhinab Pratap Singh Chauhan](https://github.com/GeneralChauhan)
