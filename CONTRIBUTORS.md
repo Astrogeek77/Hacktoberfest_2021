@@ -18,6 +18,8 @@
 
 [Vishakha V ](https://github.com/Vishakhavenugopal)
 
+[Shyam Sundar Vashishtha](https://github.com/shyam640)
+
 [Harshit suthar ](https://github.com/harshitsuthar77731)
 
 [Tanmay Gupta](https://github.com/TG2408)
@@ -27,5 +29,9 @@
 [Abhinab Pratap Singh Chauhan](https://github.com/GeneralChauhan)
 
 [Ujjwal Hans](https://github.com/ujjwalhans)
+
+[Priyanka Chhabra](https://github.com/pcpriyankapc)
+
+[Abhishek Gupta](https://github.com/abhs06)
 
 [Anand Dwivedi](https://github.com/anandcool678)
