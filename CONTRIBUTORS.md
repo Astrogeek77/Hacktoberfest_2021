@@ -37,3 +37,5 @@
 [Anand Dwivedi](https://github.com/anandcool678)
 
 [Piumi Rathnayake](https://github.com/Piumir3)
+
+[Himanshu Chavan](https://github.com/SmashedTrash)
