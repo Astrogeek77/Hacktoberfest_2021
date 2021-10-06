@@ -37,3 +37,5 @@
 [Anand Dwivedi](https://github.com/anandcool678)
 
 [Piumi Rathnayake](https://github.com/Piumir3)
+
+[Rohit Nori](https://github.com/rohit-n-42)
