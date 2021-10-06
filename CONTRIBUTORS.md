@@ -29,3 +29,5 @@
 [Ujjwal Hans](https://github.com/ujjwalhans)
 
 [Priyanka Chhabra](https://github.com/pcpriyankapc)
+
+[Akash Roy](https://github.com/IMF-missionimpossible)
