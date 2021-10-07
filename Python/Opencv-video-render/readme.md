@@ -11,5 +11,7 @@ To Learn Basics of OpenCv download my book
 
 Contact me
 [Github](https://github.com/boy-who-codes)
-[Intsgram](https://github.com/boywho.codes)
+
+[Instagram](https://github.com/boywho.codes)
+
 [Linkedin](https://linkedin/in/boywhocodes)
