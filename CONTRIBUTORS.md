@@ -1,3 +1,4 @@
+[Rahul Sinha (boy-who-codes)](https://github.com/boy-who-codes)
 [Gautam Jain](https://github.com/Astrogeek77)
 
 [Suryansh Chopra](https://github.com/SuryanshChopra)
