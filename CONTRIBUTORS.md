@@ -35,3 +35,5 @@
 [Abhishek Gupta](https://github.com/abhs06)
 
 [Anand Dwivedi](https://github.com/anandcool678)
+
+[Devashish Pant](https://github.com/devashishpant89)
