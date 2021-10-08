@@ -38,6 +38,8 @@
 
 [Anand Dwivedi](https://github.com/anandcool678)
 
+[Oshadee Gangangana](https://github.com/oshadeegangangana)
+
 [Armaan](https://github.com/Armaan2807)
 
 [Shivam Jindal](https://github.com/Shivamjindal1)
