@@ -1,12 +1,13 @@
 //program to find the nth fibonacci number
 #include<stdio.h>
-int fib(int);
+int fib(int m);
 int main(){
     int n;
     printf("Enter the nth number\n");
     scanf("%d",&n);
     printf("%dth fibonacci number is ",n);
     printf("%d",fib(n));
+    return 0;
 }
 //recursive function used
 int fib(int m){
