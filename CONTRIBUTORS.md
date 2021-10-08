@@ -44,6 +44,8 @@
 
 [Piumi Rathnayake](https://github.com/Piumir3)
 
+[Rohit Nori](https://github.com/rohit-n-42)
+
 [Himanshu Chavan](https://github.com/SmashedTrash)
 
 [Tushar Garg](https://github.com/tushar152)
