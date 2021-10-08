@@ -1,3 +1,5 @@
+[Rohit Mittal](https://github.com/rohit162)
+
 [Gautam Jain](https://github.com/Astrogeek77)
 
 [Suryansh Chopra](https://github.com/SuryanshChopra)
@@ -46,3 +48,12 @@
 
 [Tushar Garg](https://github.com/tushar152)
 
+[Sweta Karar](https://github.com/karar189)
+
+[Gargi Bisht](https://github.com/gargibisht)
+
+[Olga Torres](https://github.com/Babulucia)
+
+[Maleesha Silva](https://github.com/maleeshasilva)
+
+[Prathamesh Borse](https://github.com/prathamesh-borse)
