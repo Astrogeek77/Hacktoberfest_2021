@@ -1,4 +1,3 @@
-[Rohit Mittal](https://github.com/rohit162)
 
 [Gautam Jain](https://github.com/Astrogeek77)
 
@@ -63,3 +62,7 @@
 [Maleesha Silva](https://github.com/maleeshasilva)
 
 [Prathamesh Borse](https://github.com/prathamesh-borse)
+
+[Rahul Sinha (boy-who-codes)](https://github.com/boy-who-codes)
+
+[Rohit Mittal](https://github.com/rohit162)
