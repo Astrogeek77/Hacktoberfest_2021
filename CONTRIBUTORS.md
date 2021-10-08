@@ -46,4 +46,8 @@
 
 [Sweta Karar](https://github.com/karar189)
 
+[Gargi Bisht](https://github.com/gargibisht)
+
+[Olga Torres](https://github.com/Babulucia)
+
 
