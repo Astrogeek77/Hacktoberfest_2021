@@ -1,0 +1,65 @@
+/* Resetting CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body Color Changed */
+body {
+    background-color: #191919;
+}
+
+/* Changed Properties of h1 */
+h1 {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 0 0 0; 
+    text-align: center;
+    color: aqua;
+}
+
+/* Changed Styling of Paragraph */
+.short-info {
+    font-size: 1em;
+    font-family: serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 5px 10px;
+    text-align: center;
+    color: wheat;
+}
+
+/* Styling of image tag */
+#making-missile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Styling of timeline */
+.timeline {
+    padding: 1em 6em;
+    margin: 1em 1em;
+    color: cadetblue;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+/* Styling of Read More */
+#more {
+    padding: 1em 6em;
+    margin: 1em 6em;
+    text-align: center;
+    color: crimson;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling of link tag */
+.web_link {
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
