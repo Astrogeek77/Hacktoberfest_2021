@@ -1,0 +1,97 @@
+/* head is first node that is null initially, it'll be first node and it'll point to null, 
+after adding second node, second node will point to first node and it'll be new head  now. 
+it's diffrent than usaual where we tend to start with first node and first will point to 
+second and last node will point to  null.*/
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+struct Node{
+    int data;
+    struct Node* next;
+}*head;
+void push(int data){
+    struct Node *temp = (struct Node*)malloc(sizeof(struct Node));
+    temp->data = data;
+    if(head==NULL){ 
+        temp -> next = NULL;  
+        head = temp; 
+    }
+    else{
+        temp->next = head;
+        head = temp;
+    }
+    printf("Element pushed");
+}
+void pop(){
+    if(head==NULL){
+        printf("\nStack is empty");
+    }
+    else{
+        printf("\nPopped element is %d",head->data);
+        head = head->next;
+    }
+}
+void peep(){
+    if(head==NULL){
+        printf("\nStack is empty");
+    }
+    else{
+        printf("\nPeeked element is %d",head->data);
+    }
+}
+void change(int ele){
+    int temp;
+    if(head==NULL){
+        printf("\nStack is empty");
+    }
+    else{
+        temp = head->data;
+        head->data = ele;
+        printf("\nElement %d is changed to %d",temp,head->data);
+    }
+}
+void display(){
+    struct Node *temp = (struct Node*)malloc(sizeof(struct Node));
+    temp = head;
+    if(head==NULL){
+        printf("Underflow");
+    }
+    else{
+        while(temp!=NULL){
+            printf("\nValue is %d",temp->data);
+            temp = temp->next;
+        }
+    }
+    
+}
+int main(){
+    char yn;
+    int ch,ele;
+    do{
+        printf("\n 1: For Push\n 2: For Pop\n 3: For Peek\n 4: Change\n 5: Display\n Your choice:");
+        scanf("%d",&ch);
+        switch(ch){
+            case 1: printf("\nEnter Element you want to push: ");
+                    scanf("%d",&ele);
+                    push(ele);
+                    break;
+            case 2: pop();
+                    break;
+            case 3: peep();
+                    break;
+            case 4: printf("\nEnter Element you want to change:");
+                    scanf("%d",&ele);
+                    change(ele);
+                    break;
+            case 5: display();
+                    break;
+        }
+        printf("\n\nDo you want to continue? Enter Y for yes: ");
+        scanf(" %c",&yn);
+
+    }while(yn=='Y'||yn=='y');
+    return 0;
+
+}
+
+//code by Khushi Pitroda

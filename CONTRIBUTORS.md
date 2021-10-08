@@ -1,3 +1,5 @@
+[Rohit Mittal](https://github.com/rohit162)
+
 [Gautam Jain](https://github.com/Astrogeek77)
 
 [Suryansh Chopra](https://github.com/SuryanshChopra)
@@ -37,3 +39,27 @@
 [Anand Dwivedi](https://github.com/anandcool678)
 
 [Kanchana Chathuranga](https://github.com/kanchanachathuranga)
+
+[Oshadee Gangangana](https://github.com/oshadeegangangana)
+
+[Armaan](https://github.com/Armaan2807)
+
+[Shivam Jindal](https://github.com/Shivamjindal1)
+
+[Piumi Rathnayake](https://github.com/Piumir3)
+
+[Rohit Nori](https://github.com/rohit-n-42)
+
+[Himanshu Chavan](https://github.com/SmashedTrash)
+
+[Tushar Garg](https://github.com/tushar152)
+
+[Sweta Karar](https://github.com/karar189)
+
+[Gargi Bisht](https://github.com/gargibisht)
+
+[Olga Torres](https://github.com/Babulucia)
+
+[Maleesha Silva](https://github.com/maleeshasilva)
+
+[Prathamesh Borse](https://github.com/prathamesh-borse)
