@@ -44,3 +44,5 @@
 
 [Himanshu Chavan](https://github.com/SmashedTrash)
 
+[Tushar Garg](https://github.com/tushar152)
+
