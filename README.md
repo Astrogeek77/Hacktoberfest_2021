@@ -6,9 +6,8 @@
 
 ### The repository has been marked as "Excluded Project" by Hacktoberfest Algorithm. I have no idea what went wrong. I am really sorry for this. I hope your Hacktoberfest goes great, There are plenty more repositories to contribute. Peace. Happy Coding.
 <br>
-<br>
 
-#### Proud Contributors of this repoistory:
+### Proud Contributors of this repoistory:
 <br>
 <p align="center">
   <a href="https://github.com/astrogeek77/Hacktoberfest_2021/graphs/contributors">
